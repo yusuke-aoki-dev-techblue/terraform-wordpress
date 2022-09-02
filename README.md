@@ -9,31 +9,31 @@ dev,stg,prodの3つの構成を構築する。
 ## ブランチ構成
 
 master  
-|
-prod
   |
-stg
+prod.  
   |
-dev
+stg. 
   |
-feature/hogehoge
+dev. 
+  |
+feature/hogehoge. 
 
 ## フォルダ構成
 
 .
-├──.github
-│   └── workflows
-│       ├── fugafuga.py
-│       ├── fugafuga.py
-│       ├── fugafuga.py
-│       ├── fugafuga.py
-│       ├── fugafuga.py
-│       └── fugafuga
-│
-├── dev
-├── stg
-├── prod
-└── Readme.md
+├──.github. 
+│   └── workflows. 
+│       ├── fugafuga.py. 
+│       ├── fugafuga.py. 
+│       ├── fugafuga.py. 
+│       ├── fugafuga.py. 
+│       ├── fugafuga.py. 
+│       └── fugafuga. 
+│. 
+├── dev  
+├── stg. 
+├── prod. 
+└── Readme.md. 
 
 ## アカウント
 今回はテストのため、個人環境1台でデプロイすることを想定する。
