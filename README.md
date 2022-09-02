@@ -8,18 +8,19 @@ dev,stg,prodの3つの構成を構築する。
 
 ## ブランチ構成
 
-master
+master : リリース用
 
-prod
+prod : production環境
 
-stg
+stg : staging環境
 
-dev 
+dev : develop環境
 
-feature/hogehoge
+feature/hogehoge : 作業ブランチ
 
 ## フォルダ構成
 
+```
 .
 ├──.github. 
 │   └── workflows. 
@@ -34,6 +35,7 @@ feature/hogehoge
 ├── stg. 
 ├── prod. 
 └── Readme.md. 
+```
 
 ## アカウント
 今回はテストのため、個人環境1台でデプロイすることを想定する。
