@@ -8,15 +8,11 @@ dev,stg,prodの3つの構成を構築する。
 
 ## ブランチ構成
 
-master  
-  |. 
-prod.  
-  |  
-stg. 
-  |. 
-dev. 
-  |. 
-feature/hogehoge. 
+master
+prod
+stg
+dev 
+feature/hogehoge
 
 ## フォルダ構成
 
