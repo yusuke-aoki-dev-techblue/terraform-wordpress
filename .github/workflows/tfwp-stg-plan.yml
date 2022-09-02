@@ -25,14 +25,14 @@ jobs:
       - name: Terraform Format
         run: terraform fmt -recursive -check
       - name: Terraform Validation
-        working-directory: ./develop
+        working-directory: ./stg
         run: |
           terraform init
           terraform validate
           terraform plan -no-color
       - name: Terraform Plan
         id: plan
-        working-directory: ./develop
+        working-directory: ./stg
         run: |
           terraform plan -no-color
       - name: Comment

@@ -7,6 +7,7 @@
 dev,stg,prodの3つの構成を構築する。
 
 ## ブランチ構成
+
 master
   |
 prod
@@ -14,8 +15,11 @@ prod
 stg
   |
 dev
+  |
+feature/hogehoge
 
 ## フォルダ構成
+
 .
 ├──.github
 │   └── workflows
@@ -25,18 +29,15 @@ dev
 │       ├── fugafuga.py
 │       ├── fugafuga.py
 │       └── fugafuga
- 
-├── fuga_dir
-│   └──fuga
-│       ├── fugafuga.py
-│       ├── fugafuga.py
-│       ├── fugafuga.py
-│       ├── fugafuga.py
-│       ├── fugafuga.py
-│       └── fugafuga
-├── fugafuga.py
-├── fugahoge.py
-├── hoge.py
-└── hoge_dir
-    ├── hoge
-    └── hogehoge
+│
+├── dev
+├── stg
+├── prod
+└── Readme.md
+
+## アカウント
+今回はテストのため、個人環境1台でデプロイすることを想定する。
+複数環境の場合は、githubのcredentialでコントロールする。
+権限は、構成図で使用すると思われる権限のFull Accessのみ使用し、デプロイのタイミングのみアクセスキーを有効化する運用とする。
+* 注意事項
+- github secretを使用し、コード状にハードコーディングはしない

@@ -26,7 +26,7 @@ jobs:
           terraform_version: 1.0.0
       - name: Terraform Apply
         id: apply
-        working-directory: ./develop
+        working-directory: ./dev
         run: |
           terraform init
           terraform apply -auto-approve
