@@ -24,12 +24,12 @@ feature/hogehoge : 作業ブランチ
 .
 ├──.github. 
 │   └── workflows. 
-│       ├── fugafuga.py. 
-│       ├── fugafuga.py. 
-│       ├── fugafuga.py. 
-│       ├── fugafuga.py. 
-│       ├── fugafuga.py. 
-│       └── fugafuga. 
+│       ├── tfwp-dev-plan.yml
+│       ├── tfwp-dev-apply.yml
+│       ├── tfwp-stg-plan.yml
+│       ├── tfwp-stg-apply.yml
+│       ├── tfwp-prod-plan.yml
+│       └── tfwp-prod-apply.yml
 │. 
 ├── dev  
 ├── stg. 
